@@ -1,0 +1,63 @@
+
+
+db.table
+
+db.table.attr
+
+db.table(attr1, attr2, attr3)
+
+db.table(~attr4)
+
+db.table(:string)
+
+db.table[attr > 1  or attr < 2]
+
+db.table.attr > 4
+
+db(table1 ^ table2 => table1.id = table2.id)
+
+db.table//attr0
+
+db.table(attr0, attr1.count)\\attr0
+
+db.table{1, 100}
+
+db.table(attr1!!)
+
+db.table | [age > 3] | (name!!) | count
+
+
+
+
+
+
++db.table {
+    <json>
+}
+
+-db.table[attr > 0]
+
+!db.table[<cond>] {
+    <json>
+}
+
+entity {
+
+}
+
+view {
+
+}
+
+relation {
+
+}
+
+index {
+
+}
+
+query {
+
+}
+
